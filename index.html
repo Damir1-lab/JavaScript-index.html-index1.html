@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapremina Valjka</title>
+</head>
+<body>
+    <script>
+
+        document.write("Ovaj program izracunava zapreminu valjka V = r<sup>2</sup> * π * H <br>");
+
+        function zapre(){
+       pi = 3.14;
+
+       var r = parseInt(document.getElementById("r").value);
+       var H = parseInt(document.getElementById("H").value);
+       var V = parseInt((document.getElementById("V").value = r * r * H * pi));
+
+        }
+    </script>
+       
+        <p>Unesite poluprecnik valjka : </p>
+        <input type="text" id="r" /><br />
+        <p>Unesite visinu valjka :</p>
+        <input type="text" id="H" /><br />
+        <p>Vasa zapremina iznosi :</p>
+        <button onclick="zapre();">=</button>
+        <input type="text" id="V" /><br />
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
